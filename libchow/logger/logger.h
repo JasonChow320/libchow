@@ -4,7 +4,7 @@
 #include <stdio.h>
 
 enum logger_rc {
-    LOG_RC_ERR_INVALID_LVL,
+    LOG_RC_ERR_INVALID_LVL = -3,
     LOG_RC_ERR_FILE_NOT_OPEN,
     LOG_RC_ERR_UNINITIALIZED,
     LOG_RC_SUCCESS,
